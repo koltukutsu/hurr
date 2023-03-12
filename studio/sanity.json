@@ -5,7 +5,7 @@
     "dataset": "production"
   },
   "project": {
-    "name": "HULL",
+    "name": "HuRR",
     "basePath": "/studio"
   },
   "plugins": [
