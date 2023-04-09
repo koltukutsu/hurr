@@ -231,6 +231,9 @@ const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
 //     </button>
 //   )
 // }
+const CartToggle = () => {
+  return (<></>)
+}
 
 const HeaderBackdrop = ({ isActive, onClick }) => {
   return (
