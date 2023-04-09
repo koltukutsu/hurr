@@ -214,23 +214,23 @@ const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
   )
 }
 
-const CartToggle = () => {
-  const toggleCart = useToggleCart()
-  const cartCount = useCartCount()
+// const CartToggle = () => {
+//   const toggleCart = useToggleCart()
+//   const cartCount = useCartCount()
 
-  return (
-    <button className="cart-toggle" onClick={() => toggleCart()}>
-      Cart
-      <span
-        className={cx('cart-toggle--count', {
-          'is-active': cartCount > 0,
-        })}
-      >
-        {cartCount}
-      </span>
-    </button>
-  )
-}
+//   return (
+//     <button className="cart-toggle" onClick={() => toggleCart()}>
+//       Cart
+//       <span
+//         className={cx('cart-toggle--count', {
+//           'is-active': cartCount > 0,
+//         })}
+//       >
+//         {cartCount}
+//       </span>
+//     </button>
+//   )
+// }
 
 const HeaderBackdrop = ({ isActive, onClick }) => {
   return (
