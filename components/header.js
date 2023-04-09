@@ -92,7 +92,7 @@ const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
                 ) : (
                   <Link href="/" scroll={false}>
                     <a className="logo--link" aria-label="Go Home">
-                      <Icon name="Logo-2" id="header" viewBox="0 0 215 150" />
+                    <Icon name="Logo-2" id="header" viewBox="0 0 504 160" />
                     </a>
                   </Link>
                 )}
