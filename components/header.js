@@ -87,7 +87,7 @@ const Header = ({ data = {}, isTransparent, onSetup = () => {} }) => {
                     aria-label="Go Home"
                     onClick={() => window.scrollTo(0, 0)}
                   >
-                    <Icon name="Logo-2" id="header" viewBox="0 0 210 160" />
+                    <Icon name="Logo-2" id="header" viewBox="0 0 504 160" />
                   </button>
                 ) : (
                   <Link href="/" scroll={false}>
